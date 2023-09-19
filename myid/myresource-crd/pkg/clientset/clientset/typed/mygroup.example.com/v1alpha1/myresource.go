@@ -7,8 +7,8 @@ import (
 	"context"
 	"time"
 
-	v1alpha1 "github.com/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
-	scheme "github.com/myid/myresource-crd/pkg/clientset/clientset/scheme"
+	v1alpha1 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
+	scheme "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

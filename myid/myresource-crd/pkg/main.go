@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	clientset2 "github.com/myid/myresource-crd/pkg/clientset/clientset"
+	clientset2 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"
 )
