@@ -4,9 +4,9 @@
 package fake
 
 import (
-	clientset "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset"
-	mygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
-	fakemygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1/fake"
+	clientset "github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/clientset/clientset"
+	mygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1"
+	fakemygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/clientset/clientset/typed/mygroup.example.com/v1alpha1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

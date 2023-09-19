@@ -4,7 +4,7 @@
 package scheme
 
 import (
-	mygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
+	mygroupv1alpha1 "github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

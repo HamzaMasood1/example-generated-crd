@@ -6,8 +6,8 @@ package v1alpha1
 import (
 	"net/http"
 
-	v1alpha1 "github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
-	"github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd/pkg/clientset/clientset/scheme"
+	v1alpha1 "github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/apis/mygroup.example.com/v1alpha1"
+	"github.com/HamzaMasood1/example-generated-crd/myid/myresource-crd/pkg/clientset/clientset/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

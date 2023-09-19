@@ -1,4 +1,4 @@
-module github.com/HamzaMasood1/example-generated-crd/blob/main/myid/myresource-crd
+module github.com/HamzaMasood1/example-generated-crd
 
 go 1.21.0
 
